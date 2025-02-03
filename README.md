@@ -6,7 +6,7 @@ Este projeto é um sistema de gerenciamento de livros desenvolvido em Laravel. E
 ## Instalação do Projeto
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/livro_manager.git
+   git clone https://github.com/zecawuw/Sistema-de-Gerenciamento-de-Livros-com-Integra-o-de-API-Externa.git
    ```
 2. Acesse o diretório do projeto:
    ```bash

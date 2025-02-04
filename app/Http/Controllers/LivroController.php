@@ -10,12 +10,12 @@ namespace App\Http\Controllers;
    {
        public function index()
        {
-           return view('livros.index', ['livros' => Livro::all()]);
+           return view('index', ['livros' => Livro::all()]);
        }
 
        public function create()
        {
-           return view('livros.create');
+           return view('create');
        }
 
        public function store(Request $request)
@@ -42,12 +42,12 @@ namespace App\Http\Controllers;
 
        public function show(Livro $livro)
        {
-           return view('livros.show', compact('livro'));
+           return view('show', compact('livro'));
        }
 
        public function edit(Livro $livro)
        {
-           return view('livros.edit', compact('livro'));
+           return view('edit', compact('livro'));
        }
 
        public function update(Request $request, Livro $livro)
